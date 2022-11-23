@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:fontFamily" >@font/poly</item>
+    </style>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="10dp"
+            android:background="@drawable/backgroud"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="31dp"
+                android:fontFamily="@font/poly"
+                android:text="I wanna say Something"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="200dp"
+                android:layout_below="@id/text8"
+                android:text="lanjut">
+
+            </Button>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="70dp"
+                android:layout_below="@id/text8"
+                android:text="mundur">
+            </Button>
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="Banyak moment Berharga sama kamu
+\n\nMulai dari marahan
+terus dieman tiga hari"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="257dp"
+                android:layout_height="372dp"
+                android:background="@drawable/vc"
+                android:layout_below="@id/text2"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image2"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="terus ketemu ortu kamu dikira judi online"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="257dp"
+                android:layout_height="372dp"
+                android:background="@drawable/judi"
+                android:layout_below="@id/text3"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image3"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="terus masa lalu kamu dan trauma kamu"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="257dp"
+                android:layout_height="372dp"
+                android:background="@drawable/trauma"
+                android:layout_below="@id/text4"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image4"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="mungkin aku gak se waw yang kamu kira
+yang awal pdkt kek serius makin kesinin makin mager akunya"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:background="@drawable/sendinglove"></pl.droidsonroids.gif.GifImageView>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text5"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="mungkin kamu yang males nanggepin aku yang kadang cuek"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text6"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="kadang aku juga gak kabarin kamu atau bohong sesuatu ke kamu
+kadang kamu juga nyeselin cuek juga"
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text7"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poly"
+                android:text="i just wanna to know, you are special for me, maybe i can't give you love language like amel or anisa
+but i still love you and try love you day by day."
+                android:textSize="36dp"
+                android:textColor="#000000"
+                android:textAlignment="center" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text6"
+                android:background="@drawable/love2"></pl.droidsonroids.gif.GifImageView>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
